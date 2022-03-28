@@ -34,7 +34,9 @@ When API version is not set, it is assumed to be set to version 2. And version 3
 Apart from that, you must also specify path to certificate files so that ETCDCTL can authenticate to the ETCD API Server. The certificate files are available in the etcd-master at the following path. We discuss more about certificates in the security section of this course. So don’t worry if this looks complex:
 
 `–cacert /etc/kubernetes/pki/etcd/ca.crt`
+
 `–cert /etc/kubernetes/pki/etcd/server.crt`
+
 `–key /etc/kubernetes/pki/etcd/server.key`
 
 So for the commands I showed in the previous video to work you must specify the ETCDCTL API version and path to certificate files. Below is the final form:
