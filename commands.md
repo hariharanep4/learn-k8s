@@ -13,16 +13,23 @@
 ### For example ETCDCTL version 2 supports the following commands:
 
 `etcdctl backup`
+
 `etcdctl cluster-health`
+
 `etcdctl mk`
+
 `etcdctl mkdir`
+
 `etcdctl set`
 
 ### Whereas the commands are different in version 3
 
 `etcdctl snapshot save`
+
 `etcdctl endpoint health`
+
 `etcdctl get`
+
 `etcdctl put`
 
 ### To set the right version of API set the environment variable ETCDCTL_API command
